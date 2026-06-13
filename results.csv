@@ -1,0 +1,36 @@
+Coin,Model,RMSE,MAE,MAPE,Directional_Accuracy,Signal
+Bitcoin,Prophet,4090.9114,3301.7827,3.33%,48.62%,Random Walk / No Signal
+Bitcoin,LSTM,2201.2931,1635.9283,1.62%,50.81%,Random Walk / No Signal
+Bitcoin,GBM-LSTM-MSE,2198.7263,1613.9097,1.60%,50.00%,Random Walk / No Signal
+Bitcoin,GBM-LSTM-DL,2162.0505,1575.9577,1.57%,50.00%,Random Walk / No Signal
+Ethereum,Prophet,229.4795,180.2947,5.98%,53.88%,Weak Directional Signal
+Ethereum,LSTM,122.5587,84.3452,2.80%,49.19%,Random Walk / No Signal
+Ethereum,GBM-LSTM-MSE,124.9546,85.8716,2.82%,47.64%,Random Walk / No Signal
+Ethereum,GBM-LSTM-DL,122.6356,83.3171,2.77%,50.68%,Random Walk / No Signal
+BNB,Prophet,42.0799,29.2445,3.73%,52.38%,Weak Directional Signal
+BNB,LSTM,27.7666,18.8607,2.32%,45.60%,Random Walk / No Signal
+BNB,GBM-LSTM-MSE,26.1485,16.6004,2.01%,45.27%,Random Walk / No Signal
+BNB,GBM-LSTM-DL,25.9442,16.1997,1.96%,55.07%,Strong Directional Signal
+Solana,Prophet,15.1891,12.3555,7.44%,47.57%,Random Walk / No Signal
+Solana,LSTM,8.2833,6.3491,3.50%,49.77%,Random Walk / No Signal
+Solana,GBM-LSTM-MSE,7.4221,5.6485,3.14%,50.49%,Random Walk / No Signal
+Solana,GBM-LSTM-DL,7.3045,5.5756,3.13%,51.46%,Weak Directional Signal
+XRP,Prophet,0.2547,0.1888,8.21%,53.63%,Weak Directional Signal
+XRP,LSTM,0.1128,0.0760,3.00%,51.47%,Weak Directional Signal
+XRP,GBM-LSTM-MSE,0.1092,0.0720,2.87%,52.70%,Weak Directional Signal
+XRP,GBM-LSTM-DL,0.1103,0.0723,2.88%,48.31%,Random Walk / No Signal
+Bitcoin,GRU,2272.0251,1720.7626,1.70%,50.81%,Random Walk / No Signal
+Bitcoin,GBM-GRU-MSE,2188.6345,1605.2019,1.59%,52.03%,Weak Directional Signal
+Bitcoin,GBM-GRU-DL,2161.8180,1575.6242,1.57%,50.00%,Random Walk / No Signal
+Ethereum,GRU,124.1168,86.1898,2.84%,49.51%,Random Walk / No Signal
+Ethereum,GBM-GRU-MSE,122.6660,83.7827,2.77%,52.03%,Weak Directional Signal
+Ethereum,GBM-GRU-DL,122.8792,83.6485,2.78%,50.68%,Random Walk / No Signal
+BNB,GRU,29.3588,20.5127,2.52%,45.60%,Random Walk / No Signal
+BNB,GBM-GRU-MSE,26.8211,17.3726,2.10%,44.93%,Random Walk / No Signal
+BNB,GBM-GRU-DL,25.9754,16.2601,1.97%,55.07%,Strong Directional Signal
+Solana,GRU,8.0245,6.1231,3.39%,49.77%,Random Walk / No Signal
+Solana,GBM-GRU-MSE,7.3976,5.6645,3.14%,50.00%,Random Walk / No Signal
+Solana,GBM-GRU-DL,7.2897,5.5681,3.12%,50.00%,Random Walk / No Signal
+XRP,GRU,0.1203,0.0854,3.33%,51.47%,Weak Directional Signal
+XRP,GBM-GRU-MSE,0.1100,0.0720,2.86%,50.34%,Random Walk / No Signal
+XRP,GBM-GRU-DL,0.1098,0.0719,2.86%,51.69%,Weak Directional Signal
